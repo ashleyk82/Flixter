@@ -35,4 +35,39 @@
         android:layout_toEndOf="@+id/ivPoster"
         android:text="TextView"
         tools:text="Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man." />
+
+    <TextView
+        android:id="@+id/tvRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivPoster"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="0dp"
+        android:text=""
+        android:textSize="14sp"
+        tools:text="6.9" />
+
+    <TextView
+        android:id="@+id/outtaTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivPoster"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="1dp"
+        android:layout_toStartOf="@+id/tvOverview"
+        android:layout_toEndOf="@+id/tvRating"
+        android:text="out of 10 stars"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/tvRating"
+
+        android:layout_marginTop="21dp"
+        android:background="?android:attr/listDivider" />
+
 </RelativeLayout>
